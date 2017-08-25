@@ -1,0 +1,118 @@
+@charset"utf-8";
+html{
+	font-size: 62.5%;
+}
+.header{
+	position: relative;
+	width: 100%;
+	height: 3rem;
+	background: #58dcdf;
+	/*background: #0099ff;*/
+	box-shadow: .1rem -1.3rem 1rem 1rem #000;
+}
+.header h1{
+	font-size: 2rem;
+	color:#0a8a8d;
+	text-align: center;
+	line-height: 3rem;
+ 	
+}
+.header h1 i{
+	color: #fff;
+	font-style:normal;
+}
+.header>span{
+	position: absolute;
+	top:-0.3rem;
+	left: 1rem;
+	font-size: 2.5rem;
+	color: #fff;
+
+}
+.header>.dinwei{
+	position: absolute;
+	top:-0.3rem;
+	left: 1rem;
+}
+.header .qiandao{
+	position: absolute;
+	top:-0.3rem;
+	left: 39rem;
+
+}
+.header .jia{
+	position: absolute;
+	top:-0.3rem;
+	left: 36rem;
+	font-weight:bold;
+	color: #eee;
+
+}
+ 
+.nav{
+	width: 100%;
+	height: 30rem;
+	 
+}
+.nnav{
+	width: 100%;
+	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+}
+.nnav>li{
+ 	position: relative;
+	width: 33.5%;
+	height: 15rem;
+	border: 1px solid #eee;
+	border-top: none;
+	border-left: none;
+	float: left;
+	margin:0 -1px -1px 0;
+}
+.nnav .bborder{
+	border-bottom: none;
+	
+}
+.nnav .rborder{
+	border-right: none;
+}
+.nnav span{
+	margin-top: 12rem;
+	display: block;
+	text-align: center;
+	color: #999;
+
+}
+.nnav i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 10rem;
+	text-align: center;
+	line-height: 13rem;
+	position: absolute;
+	color:#60c1c3;
+	opacity: 0.8;
+}
+
+.nnav img {
+	 
+	width: 100%;
+	padding: 2rem;
+	margin: 0 auto;
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
