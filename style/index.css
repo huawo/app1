@@ -2,7 +2,7 @@
 html{
 	font-size: 62.5%;
 }
-.header{
+header{
 	position: relative;
 	width: 100%;
 	height: 3rem;
@@ -10,46 +10,45 @@ html{
 	/*background: #0099ff;*/
 	box-shadow: .1rem -1.3rem 1rem 1rem #000;
 }
-.header h1{
+.hnav h1{
+	margin: 0;
+	padding: 0;
 	font-size: 2rem;
 	color:#0a8a8d;
 	text-align: center;
-	line-height: 3rem;
- 	
+	line-height: 3rem;	 
 }
-.header h1 i{
+header h1 i{
 	color: #fff;
 	font-style:normal;
 }
-.header>span{
-	position: absolute;
-	top:-0.3rem;
-	left: 1rem;
+header .hnav span{
+	position: absolute;	 
 	font-size: 2.5rem;
+	top: -.3rem;
 	color: #fff;
-
 }
-.header>.dinwei{
+header .dinwei{
 	position: absolute;
-	top:-0.3rem;
 	left: 1rem;
 }
-.header .qiandao{
+header .qiandao{
 	position: absolute;
-	top:-0.3rem;
-	left: 39rem;
+	left: 90%;
+	font-weight: bold;
 
 }
-.header .jia{
+header .jia{
 	position: absolute;
-	top:-0.3rem;
-	left: 36rem;
+	left: 83%;
 	font-weight:bold;
 	color: #eee;
 
 }
  
 .nav{
+	margin: 0;
+	padding: 0;
 	width: 100%;
 	height: 30rem;
 	 
@@ -63,7 +62,7 @@ html{
 .nnav>li{
  	position: relative;
 	width: 33.5%;
-	height: 15rem;
+	height: 12rem;
 	border: 1px solid #eee;
 	border-top: none;
 	border-left: none;
@@ -78,7 +77,7 @@ html{
 	border-right: none;
 }
 .nnav span{
-	margin-top: 12rem;
+	margin-top: 9rem;
 	display: block;
 	text-align: center;
 	color: #999;
@@ -88,10 +87,11 @@ html{
 	display: block;
 	width: 100%;
 	height: 100%;
-	font-size: 10rem;
+	font-size: 7rem;
 	text-align: center;
 	line-height: 13rem;
 	position: absolute;
+	top: -1.5rem;
 	color:#60c1c3;
 	opacity: 0.8;
 }
@@ -99,14 +99,10 @@ html{
 .nnav img {
 	 
 	width: 100%;
-	padding: 2rem;
+	padding:2rem 3rem;
 	margin: 0 auto;
 
 }
-
-
-
- 
 
 
 

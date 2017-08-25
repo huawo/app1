@@ -42,7 +42,7 @@ $(function(){
 					{
 						name: '全国',
 						type: 'map',
-						roam: true,
+						roam: false,
 						hoverable: false,
 						mapType: 'china',
 						itemStyle:{
