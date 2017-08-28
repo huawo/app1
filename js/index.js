@@ -1,16 +1,30 @@
 $(function(){
 
-	$("a").click(function(){
-		 
-		$(".bg").css({
-			background: "#c4f5f6",
-			color:"#fff"
+	$(".nnav li").mousedown(function(){
+		$(this).css({
+			background:"#82f2f4",
+		    color:"#fff"
 		});
-		$(".bgg").css({
+		$(this).find("span").css({
 			color:"#fff"
 		})
-
+		$(this).find("i").css({
+			color:"#fff"
+		})
 	});
+	$(".nnav li").mouseup(function(){
+		$(this).css({
+			background:"none",
+			color:"#999"
+		})
+		$(this).find("span").css({
+			color:"#999"
+		})
+		$(this).find("i").css({
+			color:"#60c1c3"
+		})
+	});
+
 
 	$('#document').ready(function(){
 		 getEcharts();
