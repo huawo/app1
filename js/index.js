@@ -1,5 +1,17 @@
 $(function(){
 
+	$("a").click(function(){
+		 
+		$(".bg").css({
+			background: "#c4f5f6",
+			color:"#fff"
+		});
+		$(".bgg").css({
+			color:"#fff"
+		})
+
+	});
+
 	$('#document').ready(function(){
 		 getEcharts();
 	 });
