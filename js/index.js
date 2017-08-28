@@ -1,6 +1,6 @@
 $(function(){
 
-	$(".nnav li").mousedown(function(){
+	$(".nnav li").on("touchstart",function(){
 		$(this).css({
 			background:"#82f2f4",
 		    color:"#fff"
@@ -12,7 +12,7 @@ $(function(){
 			color:"#fff"
 		})
 	});
-	$(".nnav li").mouseup(function(){
+	$(".nnav li").on("touchend",function(){
 		$(this).css({
 			background:"none",
 			color:"#999"
